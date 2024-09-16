@@ -1,0 +1,52 @@
+:root {
+    --box-backround-color: pink;
+    --box-text-color: green;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  table {
+    border: 2px solid black;
+  }
+  tr {
+    border: 3px solid green;
+    background-color: hotpink;
+  }
+  td {
+    border: 1px solid black;
+  }
+  th {
+    border: 3px solid black;
+  }
+  .box13 {
+    background-color: var(--box-backround-color);
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid orange;
+  }
+  
+  .box2 {
+    background-color: var(--box-backround-color);
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid green;
+  }
+  .box4 {
+    background-color: var(--box-backround-color);
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid aqua;
+  }
+  .div {
+    color: var(--box-text-color);
+  }
+  
